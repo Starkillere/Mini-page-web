@@ -1,0 +1,86 @@
+body {
+    background-image: url('../images/bg_ia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+    padding-top: 5%;
+}
+
+span {
+    margin-left: 80%;
+    color: white;
+}
+
+a {
+    color: chartreuse;
+    font-size: large;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: red;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    word-wrap: break-word;
+    text-align: center;
+    display: block;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 30%), 0 3px 5px rgb(0 0 0 / 20%), 0 5px 10px rgb(0 0 0 / 25%), 0 20px 20px rgb(0 0 0 / 15%);
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+p {
+    color: white;
+    font-size: larger;
+}
+
+.saisie {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 255, 255);
+    margin: 10%;
+    padding: 10%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    opacity: 0.8;
+}
+
+input {
+    height: 50px;
+    width: 500px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: 'Comic Sans MS', serif;
+    color:white;
+    background-color: aqua;
+    margin-left:  29%;
+}
+
+button:hover {
+    color:aqua;
+    background-color:white;
+}
+
+footer {
+    margin-top: 30%;
+    background-color: black;
+    margin-right: 80%;
+}
